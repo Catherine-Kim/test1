@@ -1,0 +1,60 @@
+#top{
+  margin: 0 auto;
+  position: relative;
+}
+
+#book{
+  float: left;
+}
+#box1{
+  position: absolute;
+  border-radius: 15px;
+  border: 2px solid #8AC007; 
+  width: 85%;
+  height: 30vh;
+  font-family: Verdana;
+  text-align: justify;
+  padding-left: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 25px;
+  margin-left: 12%;
+  margin-top: 15px;
+}
+
+#box2{
+  position: absolute;
+  border-radius: 15px;
+  border: 2px solid orange; 
+  width: 85%;
+  height: 30vh;
+  font-family: Verdana;
+  text-align: justify;
+  padding-left: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 25px;
+  margin-left: 12%;
+  margin-top: 210px;
+}
+
+.col-md-8, .col-xs-8{
+  text-align: left;  
+  font-size: 17px;
+}
+
+.col-md-6, .col-xs-6{
+  border-right: 1px dotted gray;  
+}
+
+.col-md-12 p, .col-xs-12 p{
+  font-size: 30px;
+  color: gray;
+  margin-top: 18px;
+  margin-bottom: 13px;
+  text-align: center;
+}
+
+*{
+  font-family: Arial;  
+}
